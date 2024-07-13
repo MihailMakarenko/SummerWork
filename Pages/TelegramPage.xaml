@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SummerWorkProject.Pages.TelegramPage"
+             Title="TelegramPage">
+    <VerticalStackLayout>
+
+
+        <Button 
+             Margin="0, 25"
+Text="Траты за все время"
+VerticalOptions="Center" 
+HorizontalOptions="Center"
+       Clicked="ButtonAllTime_Clicked"/>
+
+        <Button 
+             Margin="0, 25"
+Text="Траты за год"
+VerticalOptions="Center" 
+HorizontalOptions="Center"
+       Clicked="ButtonPeriodYear_Clicked"/>
+
+        <Button 
+           Margin="0, 25"
+Text="Траты за месяц"
+VerticalOptions="Center" 
+HorizontalOptions="Center"
+       Clicked="ButtonPeriodMonth_Clicked"/>
+
+        <HorizontalStackLayout>
+
+            <DatePicker Margin="50, 0,25, 0" x:Name="DateStart" Format="d" DateSelected="DatePickerStart_DateSelected">
+
+            </DatePicker>
+            <Label   Margin="0, 10">Укажите даты</Label>
+
+            <DatePicker Margin="30, 0" x:Name="DateFinish" Format="d" DateSelected="DatePickerFinish_DateSelected">
+
+            </DatePicker>
+        </HorizontalStackLayout>
+
+        <Picker x:Name="SortPicker" Title = "Сортировка"
+                Margin="100,20"
+                SelectedIndexChanged="SortPicker_SelectedIndexChanged">
+            <Picker.Items>
+                <x:String>Возрастание Даты</x:String>
+                <x:String>Убывание Даты</x:String>
+                <x:String>Возрастание Цены</x:String>
+                <x:String>Убывание Цены</x:String>
+            </Picker.Items>
+        </Picker>
+
+        <HorizontalStackLayout>
+            <Button 
+                Margin="30,20"
+    
+Text="Отправить Exel"
+                x:Name="ButtonSendExel"
+VerticalOptions="Center" 
+HorizontalOptions="Center"
+       Clicked="ButtonSendExel_Clicked"/>
+
+            <Button 
+                Margin="20,20"
+      
+Text="Отправить Pdf"
+VerticalOptions="Center" 
+HorizontalOptions="Center"
+       Clicked="ButtonSendPdf_Clicked"/>
+
+        
+        </HorizontalStackLayout>
+
+        <Entry  Margin="10" WidthRequest="150" Keyboard="Numeric" x:Name="IdChat" Placeholder="Номер чата"/>
+        <Button Margin="20" WidthRequest="150" x:Name="AddIdChat" Text="Добавить" Clicked="AddIdChat_Clicked"></Button>
+
+    </VerticalStackLayout>
+</ContentPage>

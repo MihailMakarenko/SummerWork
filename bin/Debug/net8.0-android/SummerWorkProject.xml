@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SummerWorkProject</name>
+    </assembly>
+    <members>
+        <member name="M:SummerWorkProject.Account.GetAmountMoneyOnPeriod(SummerWorkProject.ReceiptMoney[],System.DateTime,System.DateTime)">
+            <summary>
+            Метод находит сальдо за определенный период
+            </summary>
+            <param name="receiptMoney"></param>
+            <param name="startTime"></param>
+            <param name="finishTime"></param>
+            <returns>Возвращает сумму сальдо за период</returns>
+        </member>
+        <member name="M:SummerWorkProject.Account.spendingMoneyThisYear">
+            <summary>
+            Метод возвращает потраченную сумму по месяцам за текущий год
+            </summary>
+            <returns>Массив где храниться потраченная сумма за каждый месяц</returns>
+        </member>
+        <member name="M:SummerWorkProject.Account.GetSpendingMoneyAllTime">
+            <summary>
+            Метод возвращает общую потраченную сумму за каждый месяц, за все время учета 
+            </summary>
+            <returns>Массив double где храниться потраченная сумма по каждому месяцу</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SummerWorkProject.Pages.BuyProduct"
+             Title="BuyProduct">
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25"
+            >
+            <Entry Margin="0,10,20,0" x:Name="Title" MaxLength="20" Keyboard="Text" Placeholder="Название"/>
+
+
+            <HorizontalStackLayout>
+                <Label  Text= "Колличество:" FontSize="18" Margin="0,10,20,0"  />
+                <Stepper x:Name="CountProduct" Minimum ="1" Maximum="20" Increment ="1" VerticalOptions = "Start"
+                 ValueChanged="OnStepperValueChanged" Margin="0,0,10,0" />
+            </HorizontalStackLayout>
+            <Label x:Name="countProduct"  Text= "Выбрано: 1,0" FontSize="18" Margin="100, 0, 0,0" TextTransform="Default" />
+
+            <DatePicker x:Name="DateBuy" Format="dd/MM/yy" DateSelected="DateSelected">
+                <DatePicker.MinimumDate>6/16/2024</DatePicker.MinimumDate>
+            </DatePicker>
+
+
+            <Entry x:Name="PriceEntry" Placeholder = "Цена" FontFamily="Helvetica" Keyboard="Numeric"
+                FontSize="22" MaxLength ="20" />
+
+
+            <Picker x:Name="PickerTypeProduct" Title = "Тип продукта"      >
+                <Picker.Items>
+                    <x:String>Молоко</x:String>
+                    <x:String>Мясо</x:String>
+                    <x:String>Замороженное</x:String>
+                </Picker.Items>
+            </Picker>
+            <Entry x:Name="Place" Placeholder = "Место покупки" FontFamily="Helvetica" Keyboard="Text"
+       FontSize="22" MaxLength ="20" />
+
+            <Entry x:Name="Description" Placeholder = "Описание" FontFamily="Helvetica" Keyboard="Text"
+FontSize="22" MaxLength ="20" />
+
+
+
+            <Button
+                x:Name="CounterBtn"
+                Text="Click me" 
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Fill" />
+
+            <Label x:Name="text"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

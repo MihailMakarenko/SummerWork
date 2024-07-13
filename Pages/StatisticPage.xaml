@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SummerWorkProject.Pages.StatisticPage"
+             Title="StatisticPage">
+    <VerticalStackLayout>
+        <DatePicker Margin="100, 0,220,0" x:Name="DatePickerName" Format="d" DateSelected="DatePicker_DateSelected">
+
+        </DatePicker>
+
+        <Editor Margin="100, 10, 100 , 0" IsReadOnly="True" x:Name="TableStatistic"></Editor>
+
+    </VerticalStackLayout>
+</ContentPage>

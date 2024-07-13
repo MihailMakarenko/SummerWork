@@ -1,0 +1,71 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SummerWorkProject
+build_property.ProjectDir = D:\Pet_Project\SummerWorkProject\SummerWorkProject\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[D:/Pet_Project/SummerWorkProject/SummerWorkProject/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SummerWorkProject.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/Pet_Project/SummerWorkProject/SummerWorkProject/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SummerWorkProject.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/Pet_Project/SummerWorkProject/SummerWorkProject/Pages/BuyProduct.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SummerWorkProject.Pages.BuyProduct.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\BuyProduct.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\BuyProduct.xaml
+
+[D:/Pet_Project/SummerWorkProject/SummerWorkProject/Pages/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SummerWorkProject.Pages.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MainPage.xaml
+
+[D:/Pet_Project/SummerWorkProject/SummerWorkProject/Pages/SpendMoney.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SummerWorkProject.Pages.SpendMoney.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SpendMoney.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SpendMoney.xaml
+
+[D:/Pet_Project/SummerWorkProject/SummerWorkProject/Pages/StatisticPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SummerWorkProject.Pages.StatisticPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\StatisticPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\StatisticPage.xaml
+
+[D:/Pet_Project/SummerWorkProject/SummerWorkProject/Pages/TelegramPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SummerWorkProject.Pages.TelegramPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\TelegramPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\TelegramPage.xaml
+
+[D:/Pet_Project/SummerWorkProject/SummerWorkProject/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SummerWorkProject.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/Pet_Project/SummerWorkProject/SummerWorkProject/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SummerWorkProject.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
